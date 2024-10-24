@@ -1,0 +1,152 @@
+// Paste this {} elements undert the keybindings.json file in vscode to emulate vim environment on exing with alt key
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+shift+oem_102 ctrl+shift+oem_102",
+        "command": "toggleVim"
+    },
+    {
+        "key": "alt+j",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "j" ]
+        }
+    },
+    {
+        "key": "alt+k",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "k" ]
+        }
+    },
+    {
+        "key": "alt+b",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "b" ]
+        }
+    },
+        {
+        "key": "alt+l",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "l" ]
+        }
+    },
+        {
+        "key": "alt+h",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "h" ]
+        }
+    },
+        {
+        "key": "alt+y",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "y" ]
+        }
+    },
+        {
+        "key": "alt+o",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "o" ]
+        }
+    },
+        {
+        "key": "alt+O",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "O" ]
+        }
+    },
+        {
+        "key": "alt+e",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "e" ]
+        }
+    },
+        {
+        "key": "alt+w",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "w" ]
+        }
+    },
+        {
+        "key": "alt+t",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "t" ]
+        }
+    },
+        {
+        "key": "alt+f",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "f" ]
+        }
+    },
+        {
+        "key": "alt+A",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "A" ]
+        }
+    },
+        {
+        "key": "alt+I",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "I" ]
+        }
+    },
+        {
+        "key": "alt+/",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "/" ]
+        }
+    },
+        {
+        "key": "alt+,",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "," ]
+        }
+    },
+        {
+        "key": "alt+;",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", ";" ]
+        }
+    },
+        {
+        "key": "alt+enter",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Insert'",
+        "args": {
+            "after": [ "Esc", "cr" ]
+        }
+    }
+]
